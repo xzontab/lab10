@@ -1,0 +1,45 @@
+.cards{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    flex:0 0 250px
+}
+.row {
+ 
+   display: flex;
+ 
+}
+.row_cell {
+ 
+   flex: 1
+ 
+}
+.row_cell--2 {
+    flex: 2
+}
+.row_cell--3 {
+ 
+   flex: 3
+ 
+}
+.row_cell--top {
+    align-self: flex-start
+}
+
+.row_cell--bottom {
+    align-self: flex-end
+}
+
+.row_cell--center {
+    align-self: center
+}
+
+.row--top {
+    align-items: flex-start
+}

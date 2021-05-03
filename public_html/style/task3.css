@@ -1,0 +1,39 @@
+body {
+ 
+   display: flex;
+    flex-direction: column;
+       
+ 
+}
+
+header,
+ 
+footer {
+ 
+  height: 20vh 
+ 
+}
+main {
+ 
+   flex: 1;
+   display: flex
+ 
+}
+nav,
+ 
+aside {
+ 
+  width: 20vw;
+ 
+}
+article {
+ 
+   flex: 1
+ 
+}
+nav {
+ 
+  order: -1
+ 
+}
+

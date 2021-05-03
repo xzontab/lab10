@@ -1,0 +1,16 @@
+main {
+  flex: 1;
+  height: calc(100vh - 40vh);
+ 
+}
+
+body {
+ 
+  display: flex;
+ 
+}
+aside {
+ 
+   width: 20vw
+ 
+}

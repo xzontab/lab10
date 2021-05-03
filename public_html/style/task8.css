@@ -1,0 +1,54 @@
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body {
+    flex: 1
+}
+
+.media-object{
+    margin: 15px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+header, footer{
+    height: 50px;
+}
+
+.main{
+    flex: 1;
+    background-color:#FF00FF;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #2F4F4F;
+    align-items: center;
+}
+
+section {
+    flex-grow: 1;
+}
+
+nav{
+    flex-basis: 10px;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+
+aside{
+    flex-basis: 10px;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+footer{
+    background-color: #2F4F4F
+}
